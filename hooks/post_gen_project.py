@@ -15,5 +15,6 @@ subprocess.call(['conda', 'env', 'create', '--file', 'environment.yml'])
 print(f'{MESSAGE_COLOR}entorno creado exitosamente !!{RESET_ALL}')
 
 print(f'{MESSAGE_COLOR}activando entorno...{RESET_ALL}')
+subprocess.call(['call', 'conda.bat', 'activate'])
 subprocess.call(['conda', 'activate', PROJECT_SLUG])
 print(f'{MESSAGE_COLOR}entorno en ejcucion !!{RESET_ALL}')
