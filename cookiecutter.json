@@ -1,0 +1,9 @@
+{
+    "project_title":"New cookiecutter project",
+    "project_slug":"{{ cookiecutter.project_title.lower().replace(' ','_').replace('-','_') }}",
+    "project_version":"0.0.1",
+    "project_description":"new cookiecutter project of data science",
+    "project_author_name":"Carlos Castillo Blas",
+    "python_version":"3.10",
+    "project_packages":["All","Minimal"]
+}
